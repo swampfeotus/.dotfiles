@@ -11,8 +11,11 @@ need to make a script to install and necessary apps and addons
 apt install
 git
 tmux
+zsh
 
 
+#setup on new host
+instructions
 
 #tmux
 install tpm (tmux plugin manager) 
@@ -20,4 +23,5 @@ https://github.com/tmux-plugins/tpm
 this will install the other plugins in .tmux.conf
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+#zsh
 
