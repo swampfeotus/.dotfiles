@@ -12,6 +12,7 @@ apt install
 git
 tmux
 zsh
+vim
 
 install tmux plugin manager
 install zsh ohmyzsh and powerlevel10k
@@ -37,6 +38,8 @@ and run the configuration real quick
 
 then pull the dotfiles repo and it should be fine
 
+#vim
+i think this will just work after adding .vimrc
 
 #dotfiles
 
