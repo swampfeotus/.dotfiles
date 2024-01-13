@@ -13,6 +13,10 @@ git
 tmux
 zsh
 
+install tmux plugin manager
+install zsh ohmyzsh and powerlevel10k
+
+
 
 #setup on new host
 instructions
@@ -29,6 +33,33 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 install powerlevel10k theme
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+and run the configuration real quick
 
 then pull the dotfiles repo and it should be fine
 
+
+#dotfiles
+
+
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+echo ".dotfiles" >> .gitignore
+
+git clone --bare http://www.github.com/swampfeotus/.dotfiles.git $HOME/.dotfiles/
+
+dotfiles checkout
+
+if there are errors about files already existing back them up or delete.
+
+dotfiles config --local status.showUntrackedFiles no
+
+
+
+after you can update files with 
+
+dotfiles status
+dotfiles add .vimrc
+dotfiles commit -m "Add vimrc"
+dotfiles add .bashrc
+dotfiles commit -m "Add bashrc"
+dotfiles push
