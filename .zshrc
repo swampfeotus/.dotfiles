@@ -83,6 +83,8 @@ plugins=(
 	catimg
 	colored-man-pages
 	command-not-found
+  copybuffer
+  aliases
 	)
 
 source $ZSH/oh-my-zsh.sh
