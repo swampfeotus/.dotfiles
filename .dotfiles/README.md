@@ -13,6 +13,8 @@ git
 tmux
 zsh
 vim
+neofetch
+lolcat
 
 install tmux plugin manager
 install zsh ohmyzsh and powerlevel10k
@@ -40,6 +42,16 @@ then pull the dotfiles repo and it should be fine
 
 #vim
 i think this will just work after adding .vimrc
+
+#NeoVim
+build your own neovim to get current version
+https://github.com/neovim/neovim/blob/master/BUILD.md
+install lazyvim and custom shit
+
+added the $HOME/.config/nvim/lua/plugins/ to dotfiles
+
+#ssh
+added .ssh/config
 
 #dotfiles
 
