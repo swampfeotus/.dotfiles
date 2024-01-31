@@ -1,4 +1,4 @@
-My personal dotfiles
+**My personal dotfiles**
 
 using instructions from
 https://www.atlassian.com/git/tutorials/dotfiles
@@ -91,7 +91,7 @@ GENTOO shit TO Add
 
 this is for gentoo completion in .zsh
 
-autoload -U compinit promptinit
+*autoload -U compinit promptinit
  *      compinit
  *      promptinit; prompt gentoo
  
