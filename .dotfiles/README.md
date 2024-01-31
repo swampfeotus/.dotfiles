@@ -78,3 +78,20 @@ dotfiles commit -m "Add vimrc"
 dotfiles add .bashrc
 dotfiles commit -m "Add bashrc"
 dotfiles push
+
+
+
+
+
+
+
+
+
+GENTOO shit TO Add
+
+this is for gentoo completion in .zsh
+
+autoload -U compinit promptinit
+ *      compinit
+ *      promptinit; prompt gentoo
+ 
