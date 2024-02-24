@@ -1,6 +1,7 @@
 return {
   {
     "maxmx03/fluoromachine.nvim",
+    priority = 999,
     config = function()
       local fm = require("fluoromachine")
 

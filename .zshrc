@@ -93,9 +93,11 @@ source $ZSH/oh-my-zsh.sh
 
 ### GENTOO specific
 # enable portage completions and gentoo prompt
-autoload -U compinit promptinit
+#autoload -U compinit promptinit
+#compinit
+#promptinit; prompt gentoo
+autoload -U compinit
 compinit
-promptinit; prompt gentoo
 # enable cache for completions
 zstyle ':completion::complete:*' use-cache 1
 

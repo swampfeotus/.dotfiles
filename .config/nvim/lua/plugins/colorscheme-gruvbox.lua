@@ -1,6 +1,7 @@
 return {
   {
     "ellisonleao/gruvbox.nvim",
+    priority = 997,
     config = function()
       local fm = require("gruvbox")
 
