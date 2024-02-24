@@ -126,7 +126,7 @@ zstyle ':completion::complete:*' use-cache 1
 #
 # alias for dotfiles bare repo. github.com/swampfeotus/.dotfiles.git
 alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
-
+alias levelup="mpg123 ~/.config/soundeffects/skyrim_level_up_sound_effect.mp3"
 
 # Stole from reddit to move zcomp files
 # Shamelessly borrowed from Prezto. Regenerates the completion cache approximately daily.
